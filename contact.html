@@ -95,12 +95,57 @@
             </div>
           </div>
 
+           <!-- SELECT -->
+          <div class="col-12 md:col-6">
+            <div class="form-field">
+              <label for="interest">What are you interested in?</label>
+              <select class="form-control" id="interest"
+                name="interest" required>
+                <option value="">Choose an option</option>
+                <option value="painting">Canvas Painting</option>
+                <option value="pottery">Pottery Painting</option>
+                <option value="bracelets">Bracelet Making</option>
+                <option value="candles">Candle Making</option>
+                <option value="private">Private Workshops</option>
+              </select>
+            </div>
+          </div>
 
 
+          <!-- MESSAGE -->
+          <div class="col-12">
+            <div class="form-field">
+              <label for="message">Your Message</label>
+              <textarea class="form-control" id="message"
+                name="message" rows="5" required></textarea>
+            </div>
+          </div>
 
 
+          <!-- CONSENT CHECKBOX -->
+          <div class="col-12">
+            <div class="form-field">
+              <div>
+                <input class="check" type="checkbox"
+                  id="consent" name="consent" required>
+                <label for="consent">
+                  I agree to be contacted about my inquiry.
+                </label>
+              </div>
+            </div>
+          </div>
 
 
+          <!-- SUBMIT BUTTON -->
+          <div class="col-12">
+            <button class="btn-solid theme-primary" type="submit">
+              Submit Message
+            </button>
+          </div>
+
+        </div>
+      </form>
+    </section>
 
 
     </main>
