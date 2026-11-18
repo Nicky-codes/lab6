@@ -1,1 +1,78 @@
 
+:root {
+  --bs-primary-base: #72523f;
+  --bs-primary-bg: #72523f;
+  --bs-primary-bg-subtle: #f3ebe5;
+  --bs-primary-fg: #563b2d;
+  --bs-primary-fg-emphasis: #3e2a20;
+  --bs-primary-bg-muted: #e8dcd2;
+  --bs-primary-border: #bda18d;
+  --bs-primary-contrast: #ffffff;
+
+}
+
+
+/* PAGE BACKGROUND */
+body {
+  background-color: #f3d9c0f3;
+}
+
+/* CARDS */
+.card {
+  background-color: #66543f;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #c9ad96;
+}
+
+.navbar .nav-link {
+  color: #563b2d;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #ffffff;
+  background-color: #72523f;
+}
+
+#cafeCarousel .carousel-item img {
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+/* WORKSHOP DETAILS */
+.accordion-item {
+  background-color: #f3e6d8;
+  border: 1px solid #bda18d;
+  color: #563b2d;
+}
+
+.accordion-header {
+  background-color: #f3e6d8;
+  color: #563b2d;
+}
+
+.accordion-header:hover {
+  background-color: #e8d8c8;
+}
+
+.accordion-body {
+  background-color: #f8f1e9;
+  color: #563b2d;
+}
+
+/* CAROUSEL ARROWS */
+.carousel .btn-icon {
+  background-color: #72523f;
+  color: #ffffff;
+  border-radius: 50%;
+}
+
+.carousel .btn-icon:hover {
+  background-color: #563b2d;
+}
