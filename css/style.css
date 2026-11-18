@@ -14,7 +14,7 @@
 
 /* PAGE BACKGROUND */
 body {
-  background-color: #f3d9c0f3;
+  background-color: #f3d9c0d5;
 }
 
 /* CARDS */
@@ -75,4 +75,21 @@ body {
 
 .carousel .btn-icon:hover {
   background-color: #563b2d;
+}
+
+#firstName,
+#lastName,
+#email,
+#interest,
+#message {
+  background-color: #eddcca;
+  color: #563b2d;
+  border: 1px solid #bda18d;
+}
+
+.form-field:focus {
+  background-color: #f3e6d8;
+  color: #563b2d;
+  border-color: #72523f;
+  box-shadow: none;
 }
