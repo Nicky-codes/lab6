@@ -13,6 +13,7 @@ body { background-color: #f3d9c0d5; }
 .card { background-color: #66543f; }
 .navbar { background-color: #c9ad96; }
 .navbar .nav-link { color: #563b2d; }
+.navbar .drawer { background-color: #c9ad96; color: #563b2d; }
 .navbar .nav-link:hover, .navbar .nav-link.active { color: #fff; background-color: #72523f; }
 #cafeCarousel .carousel-item img { width: 100%; height: 800px; object-fit: cover; object-position: center; }
 .accordion-item, .accordion-header { background-color: #f3e6d8; color: #563b2d; }
